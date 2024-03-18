@@ -74,6 +74,12 @@ namespace Magazyn.Krawcowa
 
                 sesja.CommitChanges();
             }
+
+            WidokListy.ClearSelection();
+            caIlosc.Value = 0;
+            caIloscUszkodzone.Value = 0;
+            DaneWykroje.Reload();
+            WidokListy.RefreshData();
         }
 
         private void Dymek_GetActiveObjectInfo(object sender, DevExpress.Utils.ToolTipControllerGetActiveObjectInfoEventArgs e)
@@ -116,5 +122,6 @@ namespace Magazyn.Krawcowa
             }
             catch { }
         }
+        
     }
 }

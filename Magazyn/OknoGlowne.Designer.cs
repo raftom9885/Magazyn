@@ -53,17 +53,18 @@
             this.sbSlownikiMaterialy = new DevExpress.XtraEditors.SimpleButton();
             this.sbSlownikiPracownicy = new DevExpress.XtraEditors.SimpleButton();
             this.sbSlownikiMagazynTkanin = new DevExpress.XtraEditors.SimpleButton();
+            this.navigationPage3 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.sbRaportKrojcza = new DevExpress.XtraEditors.SimpleButton();
             this.navigationPage2 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.sbUstawieniaBazyDanych = new DevExpress.XtraEditors.SimpleButton();
-            this.navigationPage3 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.sbRaportKrawcowa = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).BeginInit();
             this.navigationFrame.SuspendLayout();
             this.employeesNavigationPage.SuspendLayout();
             this.customersNavigationPage.SuspendLayout();
             this.navigationPage1.SuspendLayout();
-            this.navigationPage2.SuspendLayout();
             this.navigationPage3.SuspendLayout();
+            this.navigationPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tileBar
@@ -231,7 +232,6 @@
             // 
             this.navigationPage1.AllowTouchScroll = true;
             this.navigationPage1.AutoScroll = true;
-            this.navigationPage1.Caption = "navigationPage1";
             this.navigationPage1.Controls.Add(this.sbSlownikiWykroje);
             this.navigationPage1.Controls.Add(this.sbSlownikiMaterialy);
             this.navigationPage1.Controls.Add(this.sbSlownikiPracownicy);
@@ -282,6 +282,23 @@
             this.sbSlownikiMagazynTkanin.Text = "Magazyn tkanin";
             this.sbSlownikiMagazynTkanin.Click += new System.EventHandler(this.sbSlownikiMagazynTkanin_Click);
             // 
+            // navigationPage3
+            // 
+            this.navigationPage3.Controls.Add(this.sbRaportKrawcowa);
+            this.navigationPage3.Controls.Add(this.sbRaportKrojcza);
+            this.navigationPage3.Name = "navigationPage3";
+            this.navigationPage3.Size = new System.Drawing.Size(770, 451);
+            // 
+            // sbRaportKrojcza
+            // 
+            this.sbRaportKrojcza.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sbRaportKrojcza.Location = new System.Drawing.Point(0, 0);
+            this.sbRaportKrojcza.Name = "sbRaportKrojcza";
+            this.sbRaportKrojcza.Size = new System.Drawing.Size(770, 80);
+            this.sbRaportKrojcza.TabIndex = 1;
+            this.sbRaportKrojcza.Text = "Raport - krojcza";
+            this.sbRaportKrojcza.Click += new System.EventHandler(this.sbRaportKrojcza_Click);
+            // 
             // navigationPage2
             // 
             this.navigationPage2.Caption = "navigationPage2";
@@ -299,21 +316,15 @@
             this.sbUstawieniaBazyDanych.Text = "Ustawienia bazy danych i folderów";
             this.sbUstawieniaBazyDanych.Click += new System.EventHandler(this.sbUstawieniaBazyDanych_Click);
             // 
-            // navigationPage3
+            // sbRaportKrawcowa
             // 
-            this.navigationPage3.Caption = "navigationPage3";
-            this.navigationPage3.Controls.Add(this.simpleButton1);
-            this.navigationPage3.Name = "navigationPage3";
-            this.navigationPage3.Size = new System.Drawing.Size(770, 451);
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.simpleButton1.Location = new System.Drawing.Point(0, 0);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(770, 80);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Pobierz tkaninę";
+            this.sbRaportKrawcowa.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sbRaportKrawcowa.Location = new System.Drawing.Point(0, 80);
+            this.sbRaportKrawcowa.Name = "sbRaportKrawcowa";
+            this.sbRaportKrawcowa.Size = new System.Drawing.Size(770, 80);
+            this.sbRaportKrawcowa.TabIndex = 2;
+            this.sbRaportKrawcowa.Text = "Raport - krawcowa";
+            this.sbRaportKrawcowa.Click += new System.EventHandler(this.sbRaportKrawcowa_Click);
             // 
             // OknoGlowne
             // 
@@ -335,8 +346,8 @@
             this.customersNavigationPage.ResumeLayout(false);
             this.navigationPage1.ResumeLayout(false);
             this.navigationPage1.PerformLayout();
-            this.navigationPage2.ResumeLayout(false);
             this.navigationPage3.ResumeLayout(false);
+            this.navigationPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -364,6 +375,7 @@
         private DevExpress.XtraEditors.SimpleButton sbUstawieniaBazyDanych;
         private DevExpress.XtraBars.Navigation.TileBarItem RaportyBarItem;
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton sbRaportKrojcza;
+        private DevExpress.XtraEditors.SimpleButton sbRaportKrawcowa;
     }
 }

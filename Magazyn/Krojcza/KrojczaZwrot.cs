@@ -107,6 +107,8 @@ namespace Magazyn.Krojcza
                     wz.Rozliczono = (bool)WidokListyWZ.GetRowCellValue(id, colRozliczonoCalosc);
                 }
 
+                //focus na cokolwiek bo inaczej problemy z zapisem
+                caMaterialUszkodzony.Focus();
                 for (int i = 0; i < WidokListyProdukt.DataRowCount; i++)
                 {
                     var row = WidokListyProdukt.GetRow(i) as cProdukt;

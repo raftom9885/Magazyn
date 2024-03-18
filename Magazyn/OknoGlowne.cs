@@ -126,5 +126,21 @@ namespace Magazyn
         {
 
         }
+
+        private void sbRaportKrojcza_Click(object sender, EventArgs e)
+        {
+            Klasy.DotykowyUI.Usun();
+            using (Raporty.RapKrojcza okno = new Raporty.RapKrojcza())
+                okno.ShowDialog();
+            Klasy.DotykowyUI.Ustaw();
+        }
+
+        private void sbRaportKrawcowa_Click(object sender, EventArgs e)
+        {
+            Klasy.DotykowyUI.Usun();
+            using (Raporty.RapKrawcowa okno = new Raporty.RapKrawcowa())
+                okno.ShowDialog();
+            Klasy.DotykowyUI.Ustaw();
+        }
     }
 }
