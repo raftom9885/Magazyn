@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3E0777C-7786-4BCE-A7BC-8C2E9A3234AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Magazyn</RootNamespace>
+    <AssemblyName>Magazyn</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.DurableInstancing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kartoteki\Materialy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartoteki\Materialy.designer.cs">
+      <DependentUpon>Materialy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartoteki\MaterialyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartoteki\MaterialyEdit.designer.cs">
+      <DependentUpon>MaterialyEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartoteki\WykrojeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartoteki\WykrojeEdit.designer.cs">
+      <DependentUpon>WykrojeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartoteki\Wykroje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartoteki\Wykroje.designer.cs">
+      <DependentUpon>Wykroje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartoteki\Uzytkownicy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartoteki\Uzytkownicy.designer.cs">
+      <DependentUpon>Uzytkownicy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kartoteki\UzytkownicyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kartoteki\UzytkownicyEdit.designer.cs">
+      <DependentUpon>UzytkownicyEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klasy\DotykowyUI.cs" />
+    <Compile Include="Klasy\Globalne.cs" />
+    <Compile Include="Klasy\PrzechwytywanieBledow.cs" />
+    <Compile Include="Klasy\Szyfrowanie.cs" />
+    <Compile Include="Klasy\Zdjecia.cs" />
+    <Compile Include="Krawcowa\KrawcowaZwrot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Krawcowa\KrawcowaZwrot.Designer.cs">
+      <DependentUpon>KrawcowaZwrot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Krojcza\KrojczaPobranie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Krojcza\KrojczaPobranie.Designer.cs">
+      <DependentUpon>KrojczaPobranie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Krojcza\KrojczaZwrot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Krojcza\KrojczaZwrot.Designer.cs">
+      <DependentUpon>KrojczaZwrot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\AsocPzWz.cs" />
+    <Compile Include="ModelCode\AsocPzWz.Designer.cs">
+      <DependentUpon>AsocPzWz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\Bela.cs" />
+    <Compile Include="ModelCode\Bela.Designer.cs">
+      <DependentUpon>Bela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\Bledy.cs" />
+    <Compile Include="ModelCode\Bledy.Designer.cs">
+      <DependentUpon>Bledy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\Material.cs" />
+    <Compile Include="ModelCode\Material.Designer.cs">
+      <DependentUpon>Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\MaterialZdjecie.cs" />
+    <Compile Include="ModelCode\MaterialZdjecie.Designer.cs">
+      <DependentUpon>MaterialZdjecie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\ProduktPoduszka.cs" />
+    <Compile Include="ModelCode\ProduktPoduszka.Designer.cs">
+      <DependentUpon>ProduktPoduszka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\ProduktWykroj.cs" />
+    <Compile Include="ModelCode\ProduktWykroj.Designer.cs">
+      <DependentUpon>ProduktWykroj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\ProduktWykrojStan.cs" />
+    <Compile Include="ModelCode\ProduktWykrojStan.Designer.cs">
+      <DependentUpon>ProduktWykrojStan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\PZ.cs" />
+    <Compile Include="ModelCode\PZ.Designer.cs">
+      <DependentUpon>PZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\Uzytkownicy.cs" />
+    <Compile Include="ModelCode\Uzytkownicy.Designer.cs">
+      <DependentUpon>Uzytkownicy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\Wykroj.cs" />
+    <Compile Include="ModelCode\Wykroj.Designer.cs">
+      <DependentUpon>Wykroj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCode\WZ.cs" />
+    <Compile Include="ModelCode\WZ.Designer.cs">
+      <DependentUpon>WZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OknoGlowne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OknoGlowne.Designer.cs">
+      <DependentUpon>OknoGlowne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Towar\Bela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Towar\Bela.designer.cs">
+      <DependentUpon>Bela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Towar\BelaEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Towar\BelaEdit.designer.cs">
+      <DependentUpon>BelaEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ustawienia\UstawieniaBD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ustawienia\UstawieniaBD.designer.cs">
+      <DependentUpon>UstawieniaBD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zdjecia\WyborZdjec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zdjecia\WyborZdjec.designer.cs">
+      <DependentUpon>WyborZdjec.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Kartoteki\Materialy.resx">
+      <DependentUpon>Materialy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartoteki\MaterialyEdit.resx">
+      <DependentUpon>MaterialyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartoteki\WykrojeEdit.resx">
+      <DependentUpon>WykrojeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartoteki\Wykroje.resx">
+      <DependentUpon>Wykroje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartoteki\Uzytkownicy.resx">
+      <DependentUpon>Uzytkownicy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kartoteki\UzytkownicyEdit.resx">
+      <DependentUpon>UzytkownicyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Krawcowa\KrawcowaZwrot.resx">
+      <DependentUpon>KrawcowaZwrot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Krojcza\KrojczaPobranie.resx">
+      <DependentUpon>KrojczaPobranie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Krojcza\KrojczaZwrot.resx">
+      <DependentUpon>KrojczaZwrot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OknoGlowne.resx">
+      <DependentUpon>OknoGlowne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Towar\Bela.resx">
+      <DependentUpon>Bela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Towar\BelaEdit.resx">
+      <DependentUpon>BelaEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ustawienia\UstawieniaBD.resx">
+      <DependentUpon>UstawieniaBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\WyborZdjec.resx">
+      <DependentUpon>WyborZdjec.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Model.xpo" />
+    <None Include="Model.xpo.diagram">
+      <DependentUpon>Model.xpo</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Raporty\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

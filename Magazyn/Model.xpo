@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ca3a9407-f47c-47f2-96e4-9c1444954e7e" namespace="Magazyn.Model" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="c3e60266-aa31-42da-81de-8cd54f58e64f">
+      <xpObject Id="7f12a8b0-1a8d-47e9-bb80-29b8daed08b4" name="Bledy" baseClass="XPLiteObject" userFileName="Bledy" designerFileName="Bledy.Designer" className="Bledy" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="Bledy">
+        <fields>
+          <generalXpObjectHasFields Id="fd53a145-faea-41c6-a687-12071d4bf180">
+            <field Id="b934c032-d93f-4ab8-952e-e54fbd7ea8da" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="467ce08b-a8bc-4fb2-824d-b6150f4bdf44">
+            <field Id="3a3bc182-4317-40d8-8e6e-f5034d4a9956" name="Data" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a90a1dff-d7bc-4fa7-a51e-b6c9b286e932">
+            <field Id="edc65ca7-323a-43f5-89d4-6e6750d70519" name="Tresc" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="59fcd08c-3062-47a0-bbd8-b32c7e5ca071">
+            <field Id="76f8d69d-3ddd-4ae4-9189-7550f14fc5e6" name="WersjaProgramu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="8d4b349a-9bc6-430e-8884-7aa6315aca35">
+      <xpObject Id="ed9d1ce3-76af-4731-b458-24c107a0b3f3" name="Uzytkownicy" baseClass="XPLiteObject" userFileName="Uzytkownicy" designerFileName="Uzytkownicy.Designer" className="Uzytkownicy" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="Uzytkownicy">
+        <fields>
+          <generalXpObjectHasFields Id="76d51b3a-1214-4e85-8ad3-a82aaa609a55">
+            <field Id="394a38ea-ef64-4370-9c02-78e7d880e33d" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b9fa97b1-1af1-40d6-9549-ef1a1a7647fb">
+            <field Id="a93b7424-5a1d-4659-8110-f9b8ef3fb8d4" name="Nazwa" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="090ad80f-b4fe-4283-97a3-2058a32c3410">
+            <field Id="537fe47e-328c-45cd-b1ac-55d6b3d3091e" name="KodKreskowy" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6e67a467-e3b7-44fa-b302-a1bf26bf6163">
+            <field Id="d385b101-6a46-4d2b-9bf7-43d5876224ff" name="Nieaktywny" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="c2466259-67a5-4bd9-9254-7ab82e460a11">
+      <xpObject Id="330b7f4e-f47d-4851-bfd4-ac1350a49404" name="Wykroj" baseClass="XPLiteObject" userFileName="Wykroj" designerFileName="Wykroj.Designer" className="Wykroj" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="Wykroj">
+        <fields>
+          <generalXpObjectHasFields Id="69066f6f-1968-4cdf-a0fe-217df03c9a23">
+            <field Id="9b36de12-4fde-4709-8aef-186f112d690e" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f79eb1d3-8ba6-4538-b3d2-0021b393e105">
+            <field Id="b950fc54-54c6-4dd9-888d-7e2b98b9f2f9" name="Nazwa" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ffeceab4-cd24-49b7-94c8-19cedcee3911">
+            <field Id="4285e819-860b-42bc-bf30-9a958885a15a" name="Szerokosc" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="23f0df38-2797-4bf2-a5fb-e35056b15fdd">
+            <field Id="19168391-283b-44cb-aadb-6c2e86b9f27f" name="Wysokosc" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="f8d43b5d-291a-4832-bc2f-2d99c40e0585">
+      <xpObject Id="4e17198a-4a5e-4ce8-a9e2-dbf681203dd9" name="Material" baseClass="XPLiteObject" userFileName="Material" designerFileName="Material.Designer" className="Material" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="Material">
+        <fields>
+          <generalXpObjectHasFields Id="f2a6840d-d868-493e-bfb0-b79cc099c3d4">
+            <field Id="73c6ddc7-8948-4d44-bf3b-17a870247725" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8454b85b-f6c2-4b78-8a00-d01637090c59">
+            <field Id="19e173f1-9515-4bf2-b017-3ebbe6b630cd" name="Nazwa" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="bfd1569e-88c0-431b-b1af-8dc6bd6b7a36" sourceCollectionName="MaterialZdjecies" name="MaterialZdjecieReferencesMaterial" targetFieldName="Material">
+            <xpObjectMoniker Id="1e5ace15-4837-42ab-a0e6-45bb72159118" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="855ee893-734a-451b-9d64-804c6fcaaca0">
+            <collectionField Id="44b8ccf7-dbf5-498f-bb7a-771a2a4c7499" name="MaterialZdjecies" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="e4ff831c-7fce-4bda-9f83-387ebe3760ad">
+      <xpObject Id="1e5ace15-4837-42ab-a0e6-45bb72159118" name="MaterialZdjecie" baseClass="XPLiteObject" userFileName="MaterialZdjecie" designerFileName="MaterialZdjecie.Designer" className="MaterialZdjecie" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="MaterialZdjecie">
+        <fields>
+          <generalXpObjectHasFields Id="5b823895-02b8-4bfb-9b87-f0ccbb21d2a7">
+            <field Id="511608b2-1e36-4283-b2e2-0cb0ced017c7" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d9e4c2a9-6c2a-48d4-8569-af6f6258f216">
+            <field Id="8e2d7c3e-33c0-4a02-8b41-fa08e2685550" name="Nazwa" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="73f92122-f3dd-4ea6-b9b8-3c0ec7301540">
+            <field Id="9b205157-d117-4028-8a7c-cf4ea64e70e5" name="Material" virtualColumnType="Material" logicalType="Material" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bfbc2a5e-f46d-4c6a-9586-06ddd9e954f6">
+            <field Id="5fb85338-2f7b-4bd8-813f-92845fd60e3e" name="Miniatura" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="ba951e74-b384-4498-be34-14ad502550af">
+      <xpObject Id="57b9f611-c49d-4ddb-895c-f34b00568223" name="Bela" baseClass="XPLiteObject" userFileName="Bela" designerFileName="Bela.Designer" className="Bela" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="Bela">
+        <fields>
+          <generalXpObjectHasFields Id="c6b18004-fd4c-4cce-bd90-cca797b644de">
+            <field Id="0bbfc474-14da-4f47-8419-88f207a08ae3" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d97d6945-76e9-4f44-8048-d9fcf8308bf4">
+            <field Id="17a9cb46-f6c6-4e6a-bb22-37f7a8effeaa" name="KodKreskowy" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="77e995cb-b20b-49ce-91cc-03070f4d9db7">
+            <field Id="59646343-c228-4ba4-9083-69337a5adbfc" name="Material" virtualColumnType="Material" logicalType="Material" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="eb70e828-8c64-45c4-9b83-515fbaea8e65">
+            <field Id="30b2258f-0ad7-429f-b9c4-cf3e5a05f240" name="Szerokosc" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3dd12830-bad3-429d-9ad6-4b816e824035">
+            <field Id="d8d5b037-e326-4bf3-8ac1-3f7a0a500578" name="Dlugosc" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2f4d4329-4a71-47e5-9cd0-af47e96327f9">
+            <field Id="c80b82af-6a0b-46d4-a505-4a0ac03a3d81" name="BelaNadrzedna" virtualColumnType="Bela" logicalType="Bela" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="21b1b856-0b82-42dd-beb2-6e8d82b0b4f3">
+            <field Id="1170fd76-d963-4f04-b488-461143f241db" name="DataDodania" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="313ae8a3-577c-4ef5-ad91-3c09675a1b6a">
+            <field Id="65cd5ba0-e966-4558-923b-ec76c58ead13" name="Ukonczona" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="4ff53115-ef5f-4ff1-ab68-066c6de35132" sourceCollectionName="WZs" name="WZReferencesBela" targetFieldName="Bela">
+            <xpObjectMoniker Id="36432118-5bea-4811-93c5-a17d556f7ffa" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="b88af5fa-b75b-41c8-aa21-f42efe780f19">
+            <collectionField Id="5188ac81-9c58-4602-9d45-fc3aedf84ba3" name="WZs" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="4de13195-0287-4956-9d28-b504e7fef048">
+      <xpObject Id="36432118-5bea-4811-93c5-a17d556f7ffa" name="WZ" baseClass="XPLiteObject" userFileName="WZ" designerFileName="WZ.Designer" className="WZ" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="WZ">
+        <fields>
+          <generalXpObjectHasFields Id="0ffe6501-2c5b-4088-9cf4-4975c76ec2b2">
+            <field Id="9b9256a3-f1ab-4531-9d71-93d6a2d305ba" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="70f32339-cb53-4bc4-b79d-78224d414ea7">
+            <field Id="ca1c084c-00dd-4e9c-9415-c7539c34ee16" name="Uzytkownik" virtualColumnType="Uzytkownicy" logicalType="Uzytkownicy" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="065a703f-b6f7-43ab-82e4-977657672138">
+            <field Id="ebb7bac2-2371-4b72-b1ed-addf8e4482be" name="Bela" virtualColumnType="Bela" logicalType="Bela" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ce62dafe-2353-4900-840d-f87518878e70">
+            <field Id="c8162c46-897a-498c-8b61-6c8124cb7cd2" name="Ilosc" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3de70f83-e30f-4253-9ded-c8a44b246027">
+            <field Id="ed5b4762-739d-4e10-9532-9ce4c240c8de" name="Data" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6a9ed75a-f11b-4379-a368-f74464bfad77">
+            <field Id="2b590dc7-2d23-4c5a-a964-225acdec7d74" name="Rozliczono" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="2a208bd5-a249-47d5-bbbc-12384a77dea0">
+      <xpObject Id="c3d1d9cd-67d1-42f7-9589-dd20ef4c4745" name="PZ" baseClass="XPLiteObject" userFileName="PZ" designerFileName="PZ.Designer" className="PZ" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="PZ">
+        <fields>
+          <generalXpObjectHasFields Id="aa097805-632b-4a6a-8895-a8f89b1764d0">
+            <field Id="5ec348c9-e377-4e65-8406-ab5d631b2cae" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fd3bbe71-c5f0-4eb5-810e-d00ab75bbde2">
+            <field Id="40da056b-4234-4698-8774-6a12e28acd3e" name="Uzytkownik" virtualColumnType="Uzytkownicy" logicalType="Uzytkownicy" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="044d8541-9fd0-42de-aa21-3c876e64e695">
+            <field Id="3be301a4-3448-4ad4-b79e-8815e8c72c96" name="Data" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="48abc9e7-fe76-4e55-a330-960551625f9e">
+            <field Id="6351badb-b9de-40a9-8d17-f62a5d951079" name="ZwrotMaterial" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="776ca33f-24df-4d67-8dac-f0598f1f6074">
+            <field Id="531c8f19-31c6-4f02-b325-1c7ea35a6ad9" name="UszkodzonyMaterial" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b1fbfd02-8f54-4965-9716-68f436355534">
+            <field Id="f204ba19-a410-417d-a935-e29452f42e90" name="Uwagi" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="30738d18-9f4e-4131-b2e5-af458d3ae39a" sourceCollectionName="ProduktWykrojs" name="ProduktWykrojReferencesPZ" targetFieldName="PZ">
+            <xpObjectMoniker Id="eede57d5-f02e-4360-baae-2df0fae83ca6" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="3f5e0487-ac8e-492b-bf32-35f58792e474">
+            <collectionField Id="726f7ec8-bd58-40e3-88ad-8b0532b5a8f5" name="ProduktWykrojs" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="77d061b2-0902-466c-bfb1-9a0d60bd4b01">
+      <xpObject Id="eede57d5-f02e-4360-baae-2df0fae83ca6" name="ProduktWykroj" baseClass="XPLiteObject" userFileName="ProduktWykroj" designerFileName="ProduktWykroj.Designer" className="ProduktWykroj" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="ProduktWykroj">
+        <fields>
+          <generalXpObjectHasFields Id="a153dc83-5fca-45b8-9ce1-6a1e58dd996a">
+            <field Id="5cc40f56-bfe1-4256-9b51-5f6b097e30ed" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6faed964-fe0a-4c20-a626-519688e2a9aa">
+            <field Id="0e9d356f-318a-45e7-bdc7-e54d43213e2c" name="Wykroj" virtualColumnType="Wykroj" logicalType="Wykroj" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b47a014b-409c-449b-9b4b-219aa1ffc645">
+            <field Id="ba3b90fc-f1a4-4f97-b9b5-3389a056a402" name="Ilosc" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2dabb17b-f2e2-4070-b7bc-02a12461ce06">
+            <field Id="0dc94dae-266e-4ebb-ada9-030e94f02415" name="IloscUszkodzone" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fd32ee4b-1899-49c5-9577-f42100585142">
+            <field Id="755b35c3-5c31-4186-94fd-8b037ce05969" name="PZ" virtualColumnType="PZ" logicalType="PZ" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="3c7a2810-f939-401a-a46f-8202f8916407">
+      <xpObject Id="b9543c41-5f73-485e-94be-eb277684472f" name="AsocPzWz" baseClass="XPLiteObject" userFileName="AsocPzWz" designerFileName="AsocPzWz.Designer" className="AsocPzWz" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="AsocPzWz">
+        <fields>
+          <generalXpObjectHasFields Id="7ed83a1f-2267-44ab-a209-853e0cd8c0e2">
+            <field Id="6d9509d0-c1b4-4f34-a3da-16d3a8a1ca38" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="476e182f-1789-4ca8-83e7-7fd344d08ffb">
+            <field Id="1fbcfa7f-517b-4e4a-840a-fd52feadafcb" name="PZ" virtualColumnType="PZ" logicalType="PZ" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e89504df-fb77-493e-9387-68006a9c73b4">
+            <field Id="263de9c0-9e64-4956-8ad6-d96a2ef5e3b2" name="WZ" virtualColumnType="WZ" logicalType="WZ" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="5618a90c-320f-47dd-af23-6f9d0fdc8073">
+      <xpObject Id="88cbf460-ecb4-413c-a67b-c3e1445815f6" name="ProduktWykrojStan" baseClass="XPLiteObject" userFileName="ProduktWykrojStan" designerFileName="ProduktWykrojStan.Designer" className="ProduktWykrojStan" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="ProduktWykrojStan">
+        <fields>
+          <generalXpObjectHasFields Id="38abd43d-8113-4a43-b0d2-be3ee6caa937">
+            <field Id="2ad93538-a5d1-41dd-95b3-3e1d84639bce" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="84c4a1f1-bc07-4c14-8f5d-57f794833097">
+            <field Id="1c66a7c7-643a-47d8-a5a9-3fb5da876847" name="Wykroj" virtualColumnType="Wykroj" logicalType="Wykroj" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e803c6f2-22e5-421f-a012-9bf3c9039fd6">
+            <field Id="3953c041-2095-42b0-b310-cfe36201b907" name="Ilosc" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9877b88c-2dff-4865-9c04-de8fd03a968a">
+            <field Id="d3fc80f7-f3b2-4e5f-be99-046b93bb2961" name="Material" virtualColumnType="Material" logicalType="Material" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="9e57c9fb-4f49-4148-a71a-1276725d4751">
+      <xpObject Id="ae586d12-a8f4-4f65-aae3-3c5dd218185b" name="ProduktPoduszka" baseClass="XPLiteObject" userFileName="ProduktPoduszka" designerFileName="ProduktPoduszka.Designer" className="ProduktPoduszka" virtualBaseClass="XPLiteObject" optimisticLocking="True" virtualName="ProduktPoduszka">
+        <fields>
+          <generalXpObjectHasFields Id="31caa828-de00-487a-b0f3-f6ee6beb695c">
+            <field Id="50282aa4-7260-4e1f-9572-4e2ea52a84d7" name="Id" columnType="Int32" key="true" isIdentity="true" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a9afca37-a222-4b91-9e06-cb2176c17755">
+            <field Id="dee215f5-3a9b-42c0-91aa-4ba9ff60b512" name="Uzytkownik" columnType="UInt16" virtualColumnType="Uzytkownicy" logicalType="Uzytkownicy" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="70a0a324-85a8-4a58-8597-2359ee655e6e">
+            <field Id="14ee90f6-4180-4665-b033-661ff43752d4" name="Wykroj" virtualColumnType="Wykroj" logicalType="Wykroj" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a7be70e6-918e-40f1-bc1f-ef615615bc5e">
+            <field Id="78d94fc8-6b9a-49a2-88d8-221547eeebc0" name="Material" virtualColumnType="Material" logicalType="Material" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="079ffd84-5291-4b39-8e17-377bac3ab900">
+            <field Id="5b4156f8-61ed-4b4b-b891-578fb9391a2c" name="Ilosc" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="619c6a0f-1bec-4669-8642-dca6417c057d">
+            <field Id="88966513-3a37-485e-aaf7-11f1801f4748" name="IloscUszkodzonych" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="57260d2e-141a-433a-b079-2c47ef67cab3">
+            <field Id="1b35370f-88b8-4fba-8626-da0e82c32321" name="Data" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
